@@ -1,0 +1,540 @@
+
+body
+{
+	background-color:#020224;
+	margin:30px;
+}
+/*Styling header of web Page logo*/
+#header-logo
+{
+	display:inline-block;
+}
+/*Styling header of web Page -name of music player-->*/
+#header-content
+{
+	vertical-align: top;
+	display:inline-block;
+	width:5%;
+	color:white;
+	font-size:20px;
+	margin-left:10px;
+}
+/*<!-- Styling header of web Page-->*/
+#header-favourites
+{
+	display:inline-block;
+    vertical-align: top;
+    width:30%;
+    padding:30px;
+    color:white;
+    font-size:30px;
+    margin-left:20px;
+}
+/*<!-- Styling header of web Page search for music whatever u want-->*/
+#header-search
+{
+		display:inline-block;
+        vertical-align: top;
+        width:25%;
+        padding:30px;
+        margin-left:40px;
+}
+#header-search input
+{
+	width:80%;
+	height:20px;
+	background-color:white;
+	padding-top:10px;
+	border-radius:5px;
+
+}
+#header-search span
+{
+   margin-left: -280px;
+   background-color: white;
+   top:50px;
+   font-weight:100;
+}
+#header-search #i2
+{
+	position:absolute;
+	margin-left:220px;
+	padding-top:10px;
+}
+#header-search #i1
+{
+   position:absolute;
+   margin-left:4px;
+   padding-top:10px;
+
+}
+/*< !-- Styling header of web Page- Showing Notification-->*/
+#header-notification
+{
+		display:inline-block;
+        vertical-align: top;
+        width:5%;
+        padding:30px 0px 30px 0px;
+        margin-left:-30px;
+
+}
+/*< !-- Styling header of web Page- Your profile-->*/
+#header-profile
+{
+		display:inline-block;
+        vertical-align: top;
+        padding-left:100px;
+
+}
+/*< !-- Styling header of web Page- your Image-->*/
+#header-profile img
+{
+	border-radius:50%;
+	height:50px;
+	width:50px;
+	padding:10px;
+	margin-left:10px;
+}
+/*<!--Styling MAIN SECTION COURSEL-->*/
+main
+{
+	width:60%;
+	display:inline-block;
+	margin:60px;
+}
+/*Styling MAIN SECTION-COURSEL-when hover over it*/
+
+.img2:hover,.img3:hover,.img1:hover
+{
+	  position:relative;
+      box-shadow: 10px grey;
+      z-index:4px;
+      height:300px;
+      width:300px;
+      top:20px;
+
+}
+
+/*<!--Basic styling-->*/
+h2,h4,p,i,h3,h1{
+	color:white;
+}
+#i1,#i2
+{
+	color:black;
+}
+/*Styling MAIN SECTION-COURSEL-Image-->*/
+
+.img1
+{
+      position:relative;
+      height:250px;
+      width:250px;
+      z-index: 1;
+      margin:10px;
+}
+/*<!--Styling MAIN SECTION-COURSEL-Image-->*/
+
+.img3
+{
+      position:relative;
+      height:250px;
+      width:250px;
+      z-index: 1;
+      margin:10px;
+}
+/*<!--Styling MAIN SECTION-COURSEL-Image-->*/
+
+.img2
+{
+      position:relative;
+      height:250px;
+      width:250px;
+      z-index: 1;
+      margin:10px;
+
+}
+
+#popular-artist img
+{
+	margin:10px;
+}
+/*<!--Styling LATEST RELEASE SECTION-->*/
+
+
+#latest-release1, #latest-release2
+
+{
+	width:90%;
+	display:inline-block;
+}
+/*<!--Styling LATEST RELEASE SECTION- Image-->*/
+
+#latest-release1 img, #latest-release2 img
+
+{
+	height:100px;
+	width:100px;
+}
+
+
+.latest-release-container1,.latest-release-container3
+{
+	display:inline-block;
+	width:50%;
+	line-height: 0.6px;
+}
+.latest-release-container2,.latest-release-container4
+{
+	display:inline-block;
+	margin-left:50px;
+	line-height: 0.6px;
+
+}
+/*<!--Styling LATEST RELEASE SECTION- SONG Image-->*/
+
+.latest-release-container1 #image,.latest-release-container3 #image
+
+{
+  display:inline-block;
+}
+.latest-release-container1 #content,.latest-release-container3 #content
+
+{
+  display:inline-block;
+  margin:10px;
+  vertical-align:top;
+
+  
+}
+/*<!--Styling LATEST RELEASE SECTION- Ellipses Functionality-->*/
+
+ #ellipse 
+{
+	margin-left: 200px;
+	position:absolute;
+	margin-top:-70px;
+}
+ #content
+
+{
+  display:inline-block;
+  margin:10px;
+  vertical-align:top;
+}
+/*<!--Styling ASIDE SECTION-SONG LIST-->*/
+
+aside
+{
+	width:40%;
+	display:inline-block;
+	vertical-align:top;
+	position:absolute;
+}
+/*<!--Styling ASIDE SECTION- SONG LIST-->*/
+
+#mainqueue
+{
+	display:inline-block;
+	position:relative;
+}
+#songpic
+{
+	display:inline-block;
+
+}
+/*<!--Styling ASIDEE SECTION-SONG ICON-->*/
+
+#icon
+{
+	display:inline-block;
+	margin-left:150px;
+	margin-top:12px;
+
+}
+#name
+{
+		display:inline-block;
+		line-height: 0.5px;
+		margin-left:5px;
+}
+/*<!--Styling ASIDEE SECTION-SONG LIST HEADER-->*/
+
+#mainqueue h3
+{
+	margin-left:270px;
+	position:relative;
+}
+/*Styling POPULAR ARTIST SECTION-->*/
+
+#popular-artist img
+{
+	border-radius:50%;
+	height:130px;
+	width:130px;
+}
+/*<!--Styling POPULAR SECTION,LATEST ENGLISH SECTION,LATEST HINDI SECTION-- >*/
+
+#music-type,#music-type2,#latest-english,#latest-hindi
+{
+	margin-top:30px;
+	display:inline-block;
+}
+#music-type img
+{
+	border-radius:50%;
+	margin-right:20px;
+}
+#music-container,#music-container2,#latest-english-content,#latest-hindi-content
+{
+	display:inline-block;
+	text-align: center;
+}
+/*<!--Styling POPULAR SECTION,LATEST ENGLISH SECTION,LATEST HINDI SECTION -IMAGE-- >*/
+
+#music-container img
+{
+	height:120px;
+	width:120px;
+	margin:10px;
+}
+#music-container p
+{
+	margin-top:-70px;
+	color:white;
+	opacity:1;
+	font-weight:bolder;
+	font-size:25px;
+}
+/*<!--Styling POPULAR SECTION,LATEST ENGLISH SECTION,LATEST HINDI SECTION- CONTENT-- >*/
+
+#music-container2 p
+{
+	margin-top:-110px;
+	color:white;
+	opacity:1;
+	font-weight:bolder;
+	font-size:35px;
+}
+#latest-english-content img,#latest-hindi-content img
+
+{
+	margin:0 10px 10px 10px;
+}
+/*<--STYLING FOOTER SECTION OF PAGE-->*/
+#music-play
+{
+	display:inline-block;
+	background-color: #272323;
+	width:100%;
+	position:relative;
+	margin-left:-10px;
+}
+/*<!--STYLING MUSIC PLAY-->*/
+#music-play-image,#music-name,#music-icon1,#music-progress
+{
+	display:inline-block;
+}
+
+#music-play-image
+{
+	margin-left:80px;
+	margin-top:15px;
+}
+#music-name
+{
+	margin-left:10px;
+	font-style: sans-serif;
+	color:white;
+	font-size:20px;
+
+}
+/*<!-- Adding different music playing icon like forward,shuffle,repeat,backward etc-->*/
+#music-icon1
+{
+	vertical-align:top;
+	margin-top:10px;
+	margin-left:20px;
+	font-size:20px;
+	color:white;
+}
+#music-progress
+{
+	margin-left: 200px;
+	position:relative;
+	vertical-align: top;
+	margin-top:10px;
+	
+} 
+
+#music-progress i
+{
+	margin-left:30px;
+	font-size:30px;
+	margin-bottom:30px;
+	color:white;
+}
+#music-container2 img
+{
+ margin:5px;
+}
+/*<!-- SHOWING MUSIC PROGRESS-->*/
+#line
+{
+	height:5px;
+	width:500px;
+	margin-left:-80px;
+	border-radius:3px;
+	margin-top:30px;
+	background-color: white;
+}
+#song-progress
+{
+	height:5px;
+	width:200px;
+	background-color:green;
+	position:absolute;
+
+}
+/*<!-- Adding different music playing icon like forward,shuffle,repeat,backward etc-->*/
+
+#line::before
+{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 100px;
+  border-radius:50%;
+  background-color: green;
+  margin-top:-8px;
+}
+/*<!-- Styling Duration of song-->*/
+#start
+{
+margin-left:-60px;
+margin-top:-10px;
+position:absolute;
+color:white;
+}
+#end
+{
+	margin-left:550px;
+	margin-top:-10px;
+	position:absolute;
+	color:white;
+}
+/*<!--styling more icon like add to list,watch on tv-->*/
+#icon2
+{
+	display:inline-block;
+	vertical-align:top;
+	margin-left:220px;
+	position:absolute;
+	top:40px;
+}
+#icon2 i
+{
+	margin-left:10px;
+	font-size:25px;
+	color:white;
+}
+/*<!--styling more icon like add to list,watch on tv,volume increase/decrease-->*/
+
+#line1
+{
+	height:5px;
+	width:70px;
+	margin-left:-80px;
+	border-radius:3px;
+	margin-top:30px;
+	background-color: white;
+}
+#song-progress1
+{
+	height:5px;
+	width:20px;
+	background-color:green;
+	position:absolute;
+
+}
+/*<!--styling more icon like add to list,watch on tv,volume increase/decrease-->*/
+
+#progress1
+{
+	display:inline-block;
+	margin-left:100px;
+}
+#line1::before
+{
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 110px;
+  border-radius:50%;
+  background-color: green;
+  margin-top:-8px;
+}
+/*<!-- ADDING FEATURE TO ELLIPSE AND QUEUE-->*/
+#ellipse input
+{
+display:none;
+}
+label 
+{
+display:block;
+cursor:pointer;
+transition:ease .5s;
+}
+.content-ellipses
+{
+background:white;
+}
+#ellipse-container
+{
+   color:black;
+  padding:10px;
+  border-top: 2px solid grey; 
+}
+#ellipse-container i
+{
+	color:black;
+}
+
+/*<!--WHEN ELLIPSES  ARE UNCHECKED-HIDE THE CONTENT-->*/
+input +label + .content-ellipses
+{
+display:none;
+}
+/*<!-- WHEN ELLIPSES OR QUEUE ARE CHECKED- DISPLAY THE CONTENT-->*/
+input:checked + label + .content-ellipses
+{
+display:block;
+}
+/*<!-- WHEN  QUEUE ARE UNCHECKED-->*/
+#angle
+{
+	margin-left:150px;
+	margin-top:35px;
+	position:absolute;
+}
+#mainqueue
+{
+	position:absolute;
+}
+/*<!-- IMAGES ON HOVERING-->*/
+img:hover
+{
+	opacity:0.7;
+}
+ #image 
+{
+  display:inline-block;
+}
+
+
+
+
+
+
